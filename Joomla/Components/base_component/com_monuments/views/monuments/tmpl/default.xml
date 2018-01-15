@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Monuments List View" option="com_Monuments_view_default_option">
+       <message>Monuments VIEW</message>
+    </layout>
+</metadata>

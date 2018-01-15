@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.0" method="upgrade">
+	<name>Monuments</name>
+	<author>Cobweb Software</author>
+	<creationDate>July 2016</creationDate>
+	<copyright>(C) 2013 - 2015 Cobweb Software. All rights reserved.	</copyright>
+	<license></license>
+	<authorEmail>support@cobweb.biz</authorEmail>
+	<authorUrl>www.cobweb.biz</authorUrl>
+	<version>2.5.0</version>
+	<description>Monuments</description>
+
+	<administration>
+		 <menu>Monuments</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>controller.php</filename>
+			<filename>monuments.php</filename>
+			<folder>views</folder>
+			<folder>views/monuments</folder>
+			<folder>views/monument</folder>
+			<folder>views/monumentsmap</folder>
+		</files>
+	</administration>
+</extension>

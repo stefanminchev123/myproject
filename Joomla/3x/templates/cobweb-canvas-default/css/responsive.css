@@ -1,0 +1,276 @@
+/*
+ Author:       Cobweb Software
+ Author URI:
+ Template:     cobwebprogressive
+ Version:      1.0.0
+
+ Responsive layout
+
+    1. Desktop max width 1199px
+    2. Tablet max width 991px
+    3. Tablet / Mobile max width 767px
+    4. Mobile max width 579px
+
+*/
+
+
+/* -------------------------------------------------------------------------- *
+ * 1. Desktop max width 1400px                                                *
+ * -------------------------------------------------------------------------- */
+@media (min-width: 1400px) {
+    /*.container {
+        padding-left: 90px;
+        padding-right: 90px;
+        max-width: 1920px;
+        width: auto;
+    }
+*/
+}
+
+/* -------------------------------------------------------------------------- *
+ * 1. Desktop max width 1199px                                                *
+ * -------------------------------------------------------------------------- */
+
+    @media (max-width: 1199px) {
+        .browse-view #col-grid .product-container {
+            width: 33%;
+        }
+    }
+
+/* -------------------------------------------------------------------------- *
+ * 2. Tablet max width 991px                                                *
+ * -------------------------------------------------------------------------- */
+
+    @media (max-width: 991px) {
+        .megaMenuTop{
+            display: none;
+        }
+
+        #header #mobileMenu{
+            display: block;
+            float: none;
+            position: absolute;
+            z-index: 999;
+            left: 0;
+            top: 40px;
+        }
+
+        .offcanvas-menu .close-offcanvas{
+            width: 100%;
+            display: block;
+            text-align: right;
+        }
+
+        .header{
+            border-bottom: 2px solid #154b95;
+        }
+
+        #top-bar .col_half:first-child{
+            margin-left: 20px;
+        }
+
+        #top-search a{
+            right: 60px;
+        }
+
+        #header-wrap .searchbox .search{
+            width: 97%;
+        }
+
+        .vmgroup .simpleBorder{
+            width: 50%;
+        }
+
+        .browse-view #col-grid .product-container{
+            width: 49.6%;
+        }
+
+        #col-grid .js-recalculate{
+            width: 100%;
+        }
+
+        #col-grid .products-table .addtocart-area{
+            float: right;
+        }
+
+        .product{
+            width: 50%;
+        }
+
+        .productdetails-view .product{
+            width: 100%;
+        }
+
+        .productdetails-view .main-image{
+            height: 400px;
+        }
+
+        .contacts .gbs3 #form-row-button4 .gcore-input{
+            margin-right: 56px;
+        }
+    }
+
+/* -------------------------------------------------------------------------- *
+ * 3. Tablet / Mobile max width 767px                                                *
+ * -------------------------------------------------------------------------- */
+
+    @media (max-width: 767px) {
+        .container{
+            width: 90% !important;
+        }
+
+        .header .container{
+            width: 100% !important;
+        }
+
+        #top-bar .col_half{
+            width: 50%;
+            display: inline-block;
+        }
+
+        .header_top_right, .header_top_left{
+            padding: 20px 100px;
+        }
+
+        #header-wrap .searchbox .search{
+            width: 100%;
+        }
+
+        #header-wrap .header_top_right .top-cart-block, .header_top_right .moduletable{
+            float: none;
+        }
+
+        .orderby-displaynumber .show-category-views{
+            float: left;
+            margin-top: 10px;
+            margin-left: 25px;
+            width: 100%;
+        }
+
+        .show-category-views ul{
+            margin-left: 29px;
+        }
+
+        .productdetails-view .main-image{
+            height: 300px;
+        }
+
+        .productdetails-view h3{
+            margin-top: 20px;
+        }
+
+        .contacts .gbs3 #form-row-button4 .gcore-input{
+            margin-right: 11px;
+        }
+    }
+
+/* -------------------------------------------------------------------------- *
+ * 4. Mobile max width 579px                                                  *
+ * -------------------------------------------------------------------------- */
+
+    @media (max-width: 579px) {
+        .browse-view #col-grid .product-container{
+            width: 100%;
+        }
+
+         #top-bar .col_half, #col-grid .product{
+            width: 100%;
+        }
+
+        #top-search a{
+            right: 0;
+        }
+
+        #top-bar p{
+            text-align: center;
+        }
+
+        .cobweb-login .login-form-box{
+            right: 25px;
+        }
+
+        .cobweb-login .login-form-box:after{
+            right: 50%;
+        }
+
+        .header_top_right, .header_top_left{
+            padding: 20px 20px;
+        }
+
+        .top-cart-content{
+            width: auto;
+        }
+
+        .top-cart-block .show_cart button a{
+            float: right !important;
+        }
+
+        .vmgroup .simpleBorder{
+            width: 100%;
+        }
+
+        .orderby-displaynumber .vm-order-list{
+            margin-bottom: 10px;
+        }
+
+        .orderby-displaynumber .display-number .inputbox{
+            margin-left: 32px;
+        }
+
+        .browse-view .vm-pagination li a{
+            margin-bottom: 5px;
+        }
+
+        #content .product_title h3 a{
+            font-size: 18px;
+        }
+
+        #content .product-item .product-price span.PricesalesPrice{
+            font-size: 24px;
+        }
+
+        #col-grid .products-table .col-height{
+            width: 100%;
+            text-align: center;
+        }
+
+        #col-grid .products-table .addtocart-area{
+            position: absolute;
+            left: 25%;
+        }
+
+        .productdetails-view .additional-images .floatleft{
+            height: 100px;
+            width: 90px;
+        }
+
+        .productdetails-view .price-availability-block, .productdetails-view .product-in-stock{
+            float: none;
+        }
+
+        .productdetails-view .color-blocks .color{
+            margin: 0 7px 7px 0;
+        }
+
+        #fancybox-wrap{
+            width: 90% !important;
+        }
+
+        .contacts .gbs3 .gcore-form-row .gcore-input{
+            width: 100%;
+        }
+
+        .contacts .gbs3 #form-row-button4 .gcore-input{
+            margin-right: 0;
+        }
+
+        .contacts .gbs3 #form-row-captcha #fin-captcha1, .contacts .gbs3 #form-row-captcha #fin-captcha2{
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 320px) {
+        .top-cart-block .total{
+            font-size: 11px;
+        }
+    }

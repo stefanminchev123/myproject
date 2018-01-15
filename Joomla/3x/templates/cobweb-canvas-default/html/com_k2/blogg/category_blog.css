@@ -1,0 +1,135 @@
+#itemListLeading hr{
+    border-top: 1px solid #420804;
+}
+
+.blog-image{
+    height: 180px;
+    position: relative;
+}
+
+.blog-image a{
+    display: block;
+    height: 180px;
+    overflow: hidden;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 9;
+}
+
+.blog-image a:hover{
+    opacity: 1;
+}
+
+.catItemDateCreated {
+   display: block;
+    border: 3px solid #CCC;
+    background-color: #FFF;
+    padding-top: 10px;
+    text-indent: 0;
+    top: 20px;
+    left: -100px;
+    right: auto;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+}
+
+.monthDate{
+    display: block;
+}
+
+.dayDate {
+    display: block;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.catItemTitle{
+    margin: 5px 0;
+}
+
+.createDate{
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+div.catItemReadMore{
+    display: block;
+    text-align: right;
+    padding: 3px 8px 3px 8px;
+}
+
+div.k2Pagination ul li a{
+    padding: 4px 12px;
+    margin: 0 3px;
+    color: inherit;
+    border: 1px solid #ddd;
+}
+
+div.k2Pagination ul li a:hover, div.k2Pagination ul li.active a:hover{
+    background: rgb(117, 18, 11);
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+div.k2Pagination ul li.active a{
+    background: #420804;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-left-width: 1px;
+}
+
+div.itemFacebookButton{
+    width: initial;
+}
+
+div.itemTwitterButton, div.itemFacebookButton{
+    float: right;
+}
+
+div.itemTwitterButton{
+    margin-right: 0;
+}
+
+div.itemGooglePlusOneButton{
+    text-align: right;
+}
+.finder {
+    margin-top:10px;
+}
+
+.calendar {
+    width:100%;
+}
+.level0 li .level1  {
+    height:150px;
+    overflow-y: scroll;
+}
+.level0 li .level1 li {
+    margin:0;
+}
+.level0 li .level1 li a {
+    color:black;
+    font-size:14px;
+}
+#header-wrap .container {
+    background-color: whitesmoke;
+}
+.control-group .controls {
+    width:200px;
+}
+.highlight {
+    background-color: white !important;
+    color:#9b59b6 !important;
+}
+.img-circle {
+    width:66px !important;
+    height:66px !important;
+}
+.entry-title h4 {
+    font-size:18px !important;
+}

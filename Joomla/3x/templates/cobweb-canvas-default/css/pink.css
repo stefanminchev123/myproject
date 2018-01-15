@@ -1,0 +1,100 @@
+.PricesalesPrice,
+span.PricebasePrice,
+.price-title,
+.final-price,
+.product-discount,
+.col-total .PricesalesPrice,
+.product-item h3 a:hover,
+#top-bar a:hover,
+.item-154 .footer_bottom_right a{
+    color:#9b59b6;
+}
+
+.productdetails .chzn-container a, #damask-images img{
+    border: 1px solid #9b59b6;
+}
+
+.sticker-discount{
+    border: 2px solid #9b59b6;
+    background-color: #9b59b6;
+}
+
+.sticker-discount:before, .sticker-discount:after, .sticker-discount:after{
+    border-top-color: #9b59b6;
+}
+
+h3 a:hover{
+    color: #9b59b6;
+}
+
+.addtocart-area-custom .addtocart-bar .order-button, .addtocart-area-custom .item-quick-view{
+    background-color: rgba(155, 89, 182, 0.46);
+}
+
+.addtocart-area-custom .addtocart-bar .order-button:hover,
+.addtocart-area-custom .addtocart-bar .order-button:hover input,
+.addtocart-area-custom .item-quick-view:hover,
+.productdetails .back-to-category a,
+.btn-primary, .proopc-btn, .proopc-step,
+#ui-tabs ul#tabs li.current,
+#userForm .control-buttons .default,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.chronoform_container .btn,
+.chronoform_container .btn:active,
+.chronoform_container .btn:focus,
+.top-cart-block .vm_cart_products-container .show_cart a,
+.productdetails .addtocart-bar span.addtocart-button input{
+    background: #9b59b6;
+}
+
+
+.productdetails .back-to-category a:hover,
+.logout-button .btn,
+#form-login-submit .btn,
+#content .vm-button-correct,
+#content .vm-button-correct:link,
+#content .vm-button-correct:visited,
+.controls .btn,
+.chronoform_container .btn{
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+.productdetails span.addtocart-button input:hover,
+.productdetails .back-to-category a:hover,
+.logout-button .btn:hover,
+#form-login-submit .btn:hover,
+.controls .btn:hover,
+.chronoform_container .btn:hover,
+.chronoform_container .btn:active,
+.chronoform_container .btn:focus{
+    background-color: rgba(155, 89, 182, 0.6);
+    border-color: rgba(155, 89, 182, 0.6);
+}
+
+.proopc-btn, .proopc-step{
+    color: #fff;
+}
+
+.proopc-btn:hover,
+.proopc-btn-info:hover,
+.proopc-btn-info:focus,
+.proopc-btn-info:active,
+.proopc-btn-info:disabled,
+a.ask-a-question:hover,
+.proopc-btn-inverse:active,
+.vm-product-details-container .ask-for-price-btn:hover,
+.vm-product-details-container .ask-for-price-btn.close-chronoform-ask-for-price{
+    background: #9b59b6 !important;
+    color: #fff;
+}
+
+.top-cart-block .top-cart-content:after{
+    border-bottom: 8px solid #9b59b6;
+}
+
+.top-cart-block .top-cart-content{
+    border-top: solid 2px #9b59b6;
+}

@@ -1,0 +1,72 @@
+
+.cobweb-login {
+    position: relative;
+    color:#666;
+    padding:0px 5px;
+    cursor: default;
+}
+
+.login-links i{
+    padding: 0 2px;
+}
+
+.login-icon{
+    margin-right: 2px;
+}
+
+.login-form-box {
+    display: none;
+}
+
+.cobweb-login .login-form-box {
+    position: absolute;
+    top: 44px;
+    background: #fcfcfc;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #9b59b6;
+    padding: 20px;
+    z-index: 9996;
+    left: auto;
+    right: 0;
+}
+
+.cobweb-login .login-form-box:after{
+    top: -10px;
+    width: 0;
+    height: 0;
+    right: 30px;
+    z-index: 2;
+    margin-top: 1px;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-bottom: 8px solid #9b59b6;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+    .cobweb-login .login-form-box a{
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #DDD;
+    }
+
+    .cobweb-login #login-form {
+        width: 200px;
+        margin-bottom: 0;
+    }
+    .cobweb-login ul {
+        list-style: none;
+    }
+
+    .cobweb-login .input-prepend {
+        margin-bottom: 10px;
+    }
+
+    .logout-button {
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+    }

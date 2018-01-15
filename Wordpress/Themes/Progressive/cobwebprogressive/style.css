@@ -1,0 +1,25 @@
+/*
+Theme Name: Cobweb Progressive
+Theme URI:
+Author: Cobweb software
+Author URI: https://cobweb.biz/
+Description:
+Version: 1.0
+*/
+
+/**
+ * @FIX:
+ * Progressive theme doesn't play nicely with wp-adminbar
+ */
+.admin-bar.fixed-header .header {
+    top: 32px;
+}
+.fixed-header.fixed-top .header {
+    top: 33px;
+}
+.admin-bar.fixed-header.fixed-top .header {
+    top: 65px;
+}
+.admin-bar.fixed-header.fixed-top #top-box {
+    top: 32px;
+}

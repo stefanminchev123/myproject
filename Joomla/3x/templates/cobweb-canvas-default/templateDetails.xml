@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template">
+    <name>Cobweb Canvas</name>
+    <creationDate>2017-10-02</creationDate>
+    <author>Cobweb Software</author>
+    <authorEmail>support@cobweb.biz</authorEmail>
+    <authorUrl>http://www.cobweb.biz</authorUrl>
+    <copyright>Cobweb 2017</copyright>
+    <license>GNU/GPL</license>
+    <version>1.0.1</version>
+    <description>cobweb template</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>component.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>pre_header_left</position>
+        <position>pre_header_right</position>
+        <position>head_top_grey</position>
+        <position>header_top_left</position>
+        <position>header_top_right</position>
+        <position>header_bottom</position>
+        <position>content_top_bottom_center</position>
+        <position>content_top_left</position>
+        <position>content_top_center</position>
+        <position>content_top_right</position>
+        <position>main_content_left</position>
+        <position>main_content_top</position>
+        <position>main_content_bottom</position>
+        <position>main_content_right</position>
+        <position>main_content_center</position>
+        <position>content_bottom_left</position>
+        <position>content_bottom_center</position>
+        <position>content_bottom_right</position>
+        <position>footer_top_bar</position>
+        <position>footer_top_1</position>
+        <position>footer_top_2</position>
+        <position>footer_top_3</position>
+        <position>footer_top_4</position>
+        <position>footer_middle_1</position>
+        <position>footer_middle_2</position>
+        <position>footer_bottom_right</position>
+        <position>footer_bottom_left</position>
+        <position>slider</position>
+        <position>slider-bottom</position>
+        <position>header_bottom_bar</position>
+        <position>inner_slider</position>
+        <position>breadcrumb</position>
+        <position>offcanvas_menu</position>
+    </positions>
+
+
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                
+                <field 
+                    name="backgroundImage"  
+                    type="media" 
+                    label="Background Image"
+                    description="BACKGROUND_TEMPLATE"
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
